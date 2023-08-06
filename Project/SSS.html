@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ddd</title>
+    <link rel="stylesheet" type="text/css" href="SSS.css">
+    <link rel="icon" type="image/png" sizes="32x32"
+    href="https://media.discordapp.net/attachments/486458915618291712/1108254276901421126/logo.jpg">
+  </head>
+  <body>
+    <section>
+      <img src="https://media.discordapp.net/attachments/486458915618291712/1111293668859580456/Suannan_pixel.png" id="bg">
+      <img src="https://media.discordapp.net/attachments/604257179012431891/1111290766912925746/MMM.gif" id="moon">
+      <img src="https://media.discordapp.net/attachments/1083610012586352780/1088362784527482880/Spider_Jauy_jom.gif" id="mountain">
+      <img src="https://media.discordapp.net/attachments/486458915618291712/1111297590911311892/road.png?width=1202&height=676" id="road">
+      <h2 id="text"> สวนสุนัน Survival</h2>
+    </section>
+    <script type="text/javascript">
+      let bg = document.getElementById("bg");
+      let moon = document.getElementById("moon");
+      let mountain = document.getElementById("mountain");
+      let road = document.getElementById("road");
+      let text = document.getElementById("text");
+
+      window.addEventListener('scroll', function(){
+        var value = window.scrollY;
+
+        bg.style.top = value * 0.5 + 'px';
+        moon.style.left = -value * 4 + 'px';
+        mountain.style.top = value * 1 + 'px';
+        road.style.top = value * 0.15 + 'px';
+        text.style.top = value * 1 + 'px';
+      })
+    </script>
+  </body>
+</html>

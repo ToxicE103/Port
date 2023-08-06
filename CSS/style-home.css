@@ -1,0 +1,158 @@
+header{
+  height: 15%;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-top-width: 15px;
+  border-top-style: solid;
+  width: 100%;
+  margin: 0px;
+}
+img{
+  width: 451px;
+  height: 676px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+hr {
+  border-color: rgb(151, 151, 151);
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 0px;
+  width: 5%;
+}
+h1 {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  color: rgb(23, 131, 1);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-left: 30px;
+  font-size: 42px;
+}
+
+p, a {
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+h3 {
+  color: #ffffff;
+}
+main{
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  color: rgb(255, 0, 0);
+  margin: 0 auto;
+  font-size: large;
+}
+.menu{
+  text-align: center;
+
+}
+.head {
+  padding: 30 px;
+}
+.main {
+  width: 30%;
+  padding: 10px;
+  height: 75%;
+  position: absolute;
+  right: 40px;
+}
+.footer {
+  width: 50%;
+  padding: 10px;
+  height: 75%;
+  position: absolute;
+  left: 40px;
+}
+
+.btn {
+  color: rgb(252, 252, 252);
+  width: 100px;
+  background-color: rgba(67, 187, 67, 0.75);
+  display: inline-block;
+  border-radius: 12px;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #1c581c;
+  text-decoration: none;
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+.textbox {
+  margin-left: 9px;
+}
+.sidebar {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 36px;
+}
+.siderule {
+  height: 1px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: rgba(67, 187, 67, 0.75);
+  width: 75px;
+}
+.sidebar-text {
+  color: #ffffff;
+  font-size: 24px;
+}
+.mainhead {
+  font-size: 20px;
+  margin-top: 0px;
+
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.mainrule {
+  width: auto;
+  border-top-style: solid;
+  border-color: white;
+  border-top-width: 1px;
+}
+
+.subtext {
+  margin-top: -5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.listings {
+  margin-left: -24px;
+  margin-top: 8px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+#bxn {
+  padding: 15px;
+  margin: 50px;
+  width: auto;
+  font-size: larger;
+}
